@@ -1,0 +1,150 @@
+.square-album{
+	margin: 0px 0px 0px 0px;
+}
+
+
+/*Search Bar*/
+.topnav input[type=text] {
+  padding: 13px 23px;
+  margin-top: 8px;
+  font-size: 15px;
+  border: none;
+	    margin-bottom: 30px;
+}
+
+.topnav{
+	position: relative;
+	width: 60%;
+	margin-top: 70px
+}
+
+.topnav .search-container button {
+  float: right;
+  padding: 11px 25px;
+  background: #ff6f61;
+  font-size: 17px;
+  border: none;
+  cursor: pointer;
+	position: absolute;
+	right: 0; top: 8px;
+	color: white
+	
+}
+
+.topnav .search-container button:hover {
+  background: #ff7c6f;
+}
+
+.fa-search:before {
+    font-size: 22px;
+}
+
+/*Page Number*/
+.pagination {
+  /*display: inline-block;*/
+	justify-content: center!important;
+	margin-bottom: 100px ;
+}
+
+.pagination a {
+  color: #4d4d4d;
+  float: left;
+  padding: 5px 15px;
+  text-decoration: none;
+	    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+}
+
+.pagination a.active {
+  background-color: #ff6f61;
+  color: white;
+}
+
+.pagination a:hover:not(.active) {background-color: #ddd;}
+
+aside {
+  padding: 0 1em;
+	margin-left: 150px;
+	margin-top: 80px;
+}
+aside div {
+  margin: .25em 0;
+}
+
+.filter-custom h3{
+	font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+	color: #4d4d4d
+}
+
+.filter-custom h3:hover{
+ 	text-decoration: none; border-bottom: none
+}
+
+.filter-custom label{
+	font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.filter-custom input[type=checkbox], input[type=radio]{
+	width: 20px;
+    margin-right: 5px;
+	
+}
+
+.filter-name{
+	background: #ff6f61;
+	font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+	font-weight: 600;
+	text-align: center;
+	padding: 8px 0;
+	color: white;
+	margin-bottom: 20px;
+		
+}
+
+input[type="checkbox" i{ border: none}
+
+.site-navbar .site-navigation .site-menu .active > a {
+	color: #ff6f61
+}
+
+/* Accordion styles */
+.mb-0 > a {
+  display: block;
+  position: relative;
+}
+.mb-0 > a:after {
+  content: "\f078"; /* fa-chevron-down */
+  font-family: 'FontAwesome';
+  position: absolute;
+  right: 0;
+}
+.mb-0 > a[aria-expanded="true"]:after {
+  content: "\f077"; /* fa-chevron-up */
+}
+
+.mb-0 h3:hover{ text-decoration: none; border-bottom: none}
+
+.card-header > a {
+  display: block;
+  position: relative;
+}
+.card-header > a:after {
+  content: "\f078"; /* fa-chevron-down */
+  font-family: 'FontAwesome';
+  position: absolute;
+  right: 0;
+}
+.card-header > a[aria-expanded="true"]:after {
+  content: "\f077"; /* fa-chevron-up */
+}
+
+.card-body {
+  -webkit-box-flex: 1;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  padding: 0rem; }

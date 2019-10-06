@@ -1,0 +1,76 @@
+.ct-form-contact{
+	width: 90%;
+}
+
+.container-y{ width: 53%; margin: auto}
+
+@media (max-width: 1024px) {
+	.ct-form-contact{
+	width: 100%;
+	margin-bottom: 50px
+}
+
+	.info-footer-logo{}
+	.container-y{ width: 80%; margin: auto}
+}
+
+
+
+
+
+@media (max-width: 480px) {
+	.ct-form-contact{
+	width: 100%;
+	margin-bottom: 50px
+}
+
+	.info-footer-logo{}
+	.container-y{ width: 90%; margin: auto}
+}
+
+
+
+.contact-form-contact{
+	margin: 0px
+}
+
+.contact-form-text-contact{
+	margin-bottom: 50px
+	}
+
+.contact-address{
+	font-family: 'Montserrat', sans-serif;
+	}
+	
+.contact-phone{
+	font-family: 'Montserrat', sans-serif;
+	}
+	
+.contact-email{
+	font-family: 'Montserrat', sans-serif;
+	margin-bottom: 30px
+	}
+	
+.contact-address h3{
+	    line-height: 0.9; font-family: 'Montserrat', sans-serif; font-size: 1.4rem;
+	}
+	
+.contact-phone h3{
+	    line-height: 0.9; font-size: 1.4rem;
+	}
+	
+.contact-email h3{
+	    line-height: 1.2; font-size: 1.4rem;
+	}
+
+.contact-address p{
+	    font-size: 14.5px;
+	}
+	
+.contact-phone p{
+	    font-size: 14.5px;
+	}
+	
+.contact-email p{
+	    font-size: 14.5px;
+	}
