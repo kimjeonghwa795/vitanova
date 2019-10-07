@@ -317,6 +317,6 @@ color: #df6144
 @media (max-width: 480px){
 	.hero__scroll-packages{ display: block; top: 90%; margin-left: 100px;}
 	.sets-text-mg{ margin-top: 30px}
-	.hero__scroll-packages{ bottom: 90px;}
+	.hero__scroll-packages{ display: none}
 	
 }
