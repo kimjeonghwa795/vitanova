@@ -308,3 +308,14 @@ color: #df6144
 .site-mobile-menu .site-nav-wrap[data-class="social-pakages"] > li:first-child a {
 	padding-left: 15px !important;
 }
+
+/*Responsive*/
+@media (max-width: 768px){
+	.hero__scroll-packages{ display: none}
+}
+
+@media (max-width: 480px){
+	.hero__scroll-packages{ display: block; top: 90%; margin-left: 100px;}
+	.sets-text-mg{ margin-top: 30px}
+	
+}

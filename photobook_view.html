@@ -142,8 +142,20 @@
     </div>
 
  <!--Content-->
-<div class="container" style="margin-top: 100px; margin-bottom: 100px">
- 	
+<div class="container" style="margin-top: 100px; margin-bottom: 100px; height: 1000px">
+<div class="flipbook-viewport">
+	<div class="container">
+		<div class="flipbook">
+			<div class="page" style="background-image:url(pages/1.jpg"></div>
+			<div class="double" style="background-image:url(pages/2.jpg)"></div>
+			<div class="double" style="background-image:url(pages/3.jpg)"></div>
+			<div class="double" style="background-image:url(pages/4.jpg)"></div>
+			<div class="double" style="background-image:url(pages/5.jpg)"></div>
+			<div class="double" style="background-image:url(pages/6.jpg)"></div>
+			<div class="page" style="background-image:url(pages/7.jpg)"></div>
+		</div>
+	</div>
+</div>
 </div>
  
  
@@ -216,13 +228,60 @@
   <script src="js/bootstrap-datepicker.min.js"></script>
   <script src="js/swiper.min.js"></script>
   <script src="js/aos.js"></script>
-
+  <script src="js/modernizr.2.5.3.min.js"></script>
   <script src="js/picturefill.min.js"></script>
   <script src="js/lightgallery-all.min.js"></script>
   <script src="js/jquery.mousewheel.min.js"></script>
 
   <script src="js/main.js"></script>
-  
+
+<script type="text/javascript">
+
+function loadApp() {
+
+	var flipbook = $('.flipbook');
+
+ 	// Check if the CSS was already loaded
+	
+	if (flipbook.width()==0 || flipbook.height()==0) {
+		setTimeout(loadApp, 10);
+		return;
+	}
+
+	$('.flipbook .double').scissor();
+
+	// Create the flipbook
+
+	$('.flipbook').turn({
+			// Elevation
+
+			elevation: 50,
+			
+			// Enable gradients
+
+			gradients: true,
+			
+			// Auto center this flipbook
+
+			autoCenter: true
+
+	});
+}
+
+// Load the HTML4 version if there's not CSS transform
+
+yepnope({
+	test : Modernizr.csstransforms,
+	yep: ['js/turn.min.js'],
+	nope: ['js/lib/turn.html4.min.js'],
+	both: ['js/lib/scissor.min.js', 'css/double-page.css'],
+	complete: loadApp
+});
+
+</script>  
+	  
+	  
+	  
   <script>
     $(document).ready(function(){
       $('#lightgallery').lightGallery();
