@@ -1,7 +1,6 @@
 /* Basic sample */
 
 body{
-	overflow:hidden;
 	background-color:#fcfcfc;
 	margin:0;
 	padding:0;
@@ -15,7 +14,7 @@ body{
 
 .flipbook-viewport .container{
 	position:absolute;
-	top:50%;
+	top:110%;
 	left:50%;
 	margin:auto;
 }
