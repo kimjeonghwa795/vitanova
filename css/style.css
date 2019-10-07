@@ -23,7 +23,7 @@ font-style: normal;
 font-weight: normal;
 src: local('Pistilli Regular'), url('../Pistilli-Roman.woff') format('woff');
 }
-
+.owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span{ background: #ff6f61}
 .img-02-mg{ margin-top: -20px}
 
 .number-services h2{
