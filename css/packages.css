@@ -318,5 +318,6 @@ color: #df6144
 	.hero__scroll-packages{ display: block; top: 90%; margin-left: 100px;}
 	.sets-text-mg{ margin-top: 30px}
 	.hero__scroll-packages{ display: none}
+	.hero__scroll{ display: none}
 	
 }
