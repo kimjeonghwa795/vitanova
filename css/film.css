@@ -53,7 +53,7 @@
 .tab-content {
   position: absolute;
   top: -9999px;
-  padding: 10px; 
+  padding-top: 30px;
 }
 
 .tab-content-wrapper{
@@ -77,14 +77,16 @@
 
 /*Style*/
 .demo-gallery > ul {
-  margin-bottom: 0;
+  margin-bottom: 50;
 }
 .demo-gallery > ul > li {
   margin-bottom: 15px;
 }
+
+/*border*/
 .demo-gallery > ul > li a {
-  border: 3px solid #FFF;
-  border-radius: 3px;
+  /*border: 3px solid #FFF;
+  border-radius: 3px;*/
   display: block;
   overflow: hidden;
   position: relative;
@@ -180,8 +182,10 @@
   opacity: 0.8;
   width: 48px;
 }
+
+/*border*/
 .demo-gallery.dark > ul > li a {
-  border: 3px solid #04070a;
+  <!--border: 3px solid #04070a;-->
 }
 .home .demo-gallery {
   padding-bottom: 80px;
@@ -191,8 +195,18 @@
   height: 132px;
 }
 
-.mrb35 {
-  margin-bottom: 35px !important;
+.mrt30{
+  margin-top: 30px !important;
+}
+
+
+.mrb30 {
+  margin-bottom: 30px !important;
+}
+
+
+.mrb50 {
+  margin-bottom: 50px !important;
 }
 
 .list-unstyled {
@@ -235,3 +249,26 @@
   opacity: 0.8;
   width: 48px;
 }
+
+.pagination {
+  /*display: inline-block;*/
+	justify-content: center!important;
+	margin-bottom: 100px ;
+	margin-top: -45px ;
+}
+
+.pagination a {
+  color: #4d4d4d;
+  float: left;
+  padding: 5px 15px;
+  text-decoration: none;
+	    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+}
+
+.pagination a.active {
+  background-color: #ff6f61;
+  color: white;
+}
+
+.pagination a:hover:not(.active) {background-color: #ddd;}
