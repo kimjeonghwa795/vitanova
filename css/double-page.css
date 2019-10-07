@@ -12,7 +12,7 @@ body{
 	height:100%;
 }
 
-.flipbook-viewport .container{
+.flipbook-viewport .container-z{
 	position:absolute;
 	top:110%;
 	left:50%;
@@ -69,4 +69,32 @@ body{
 	width:800px;
 	height:400px;
 	background-size:100% 100%;
+}
+
+
+@media (max-width: 1024px){
+	.container-z{ width: 50%}
+	.flipbook-viewport .container-z{
+	position:absolute;
+	top:80%;
+	left:50%;
+}
+}
+
+@media (max-width: 768px){
+	.container-z{ width: 50%}
+	.flipbook-viewport{ width: 95%;}
+	.flipbook-viewport .container-z{
+	position:absolute;
+	top:105%;
+	left:50%;
+}
+}
+
+@media (max-width: 480px){
+	.container-z{ width: 50%}
+	.flipbook-viewport{ width: 95%;}
+	.flipbook-viewport .container-z{
+	display: none
+}
 }
