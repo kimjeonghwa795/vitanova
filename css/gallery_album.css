@@ -1,3 +1,11 @@
+.container-album{ width: 80%; margin: 100px auto}
+
+@media (max-width: 480px){
+	.container-album{
+	width: 95%; margin: 20px auto;
+}
+}
+
 .row-gallery{
 	margin: 100px 0px
 }
@@ -238,7 +246,7 @@
 /* line 46, ../sass/demo.scss */
 
 /* line 57, ../sass/demo.scss */
-.container-x .gallery a.big img {
+.container-album .gallery a.big img {
   width: 40%;
 }
 
@@ -247,6 +255,4 @@
   text-align: center;
 }
 
-.container-x{
-	
-}
+
