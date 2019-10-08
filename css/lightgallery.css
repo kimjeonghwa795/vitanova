@@ -214,6 +214,7 @@
 }
 
 #lg-counter {
+	font-family: 'Montserrat', sans-serif; font-weight: 400;
   color: #999;
   display: inline-block;
   font-size: 16px;
@@ -325,7 +326,7 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
   }
 }
 .lg-outer .lg-thumb-item.active, .lg-outer .lg-thumb-item:hover {
-  border-color: #a90707;
+  border-color: #ff6f61;
 }
 .lg-outer .lg-thumb-item img {
   width: 100%;
