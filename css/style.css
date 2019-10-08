@@ -26,6 +26,7 @@ src: local('Pistilli Regular'), url('../Pistilli-Roman.woff') format('woff');
 
 .flo-icon-arrow-line-up:before { content: '\e822'; } /* 'î ¢' */
 
+
 #button {
   display: inline-block;
   /*border: 1px solid #afafaf;*/
@@ -70,7 +71,13 @@ src: local('Pistilli Regular'), url('../Pistilli-Roman.woff') format('woff');
   visibility: visible;cursor: pointer;color: #fff;
 }
 
-
+@media (max-width: 480px){
+	#button{
+		  bottom: 25px;
+    right: -10px;
+}
+	}
+}
 
 
 
