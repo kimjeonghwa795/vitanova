@@ -59,7 +59,7 @@ src: local('Pistilli Regular'), url('../Pistilli-Roman.woff') format('woff');
   /*color: #fff;*/cursor: pointer;
 }
 #button:hover {
-	color: #fff
+	color: #fff;
   cursor: pointer;
   /*background-color: #ff6f61;*/
 }
@@ -77,7 +77,6 @@ src: local('Pistilli Regular'), url('../Pistilli-Roman.woff') format('woff');
     right: -10px;
 }
 	}
-}
 
 
 
