@@ -150,9 +150,10 @@
 }
 
 @media (max-width: 414px) {
-	.alternate-1-text-1{ text-align: left; margin-top: 600px; z-index: 5; }
-	.alternate-1-text-1 #text1 p{ margin-top: -200px;}
-	.alternate-1-img-1{margin-top: -1100px; margin-bottom: -300px;}
+	.alternate-1-text-1{ text-align: left; margin-top: 50px; z-index: 5; }
+	.alternate-1-text-1 #text1 p{ margin-top: 100px;}
+	.alternate-mg1{ margin-top: -390px;}
+	.alternate-1-img-1 img{margin-top: 390px;}
 	.alternate-2{ margin-top: 0px}
 	.team-1-img{ margin: 0; width: 100%}
 	.team-1 h4{ left: 0;}
