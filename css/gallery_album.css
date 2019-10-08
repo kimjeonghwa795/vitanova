@@ -4,6 +4,7 @@
 	.container-album{
 	width: 95%; margin: 20px auto;
 }
+	#album-phone-none{ display: none}
 }
 
 .row-gallery{
