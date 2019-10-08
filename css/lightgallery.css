@@ -448,7 +448,7 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
 }
 
 .lg-progress-bar {
-  background-color: #333;
+  background-color: #f2f2eb;
   height: 5px;
   left: 0;
   position: absolute;
@@ -462,7 +462,7 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
   transition: opacity 0.08s ease 0s;
 }
 .lg-progress-bar .lg-progress {
-  background-color: #a90707;
+  background-color: #ff6f61;
   height: 5px;
   width: 0;
 }
