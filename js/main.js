@@ -302,3 +302,15 @@ jQuery(document).ready(function($) {
 
   ga('create', 'UA-46156385-1', 'cssscript.com');
   ga('send', 'pageview');
+
+
+/*Modal*/
+// Get the modal
+$('#trigger-top-login-modal').click(function(){
+    $('#top-login-overlay, #top-login-modal').show();
+	});
+
+	$('#top-login-overlay, #top-login-modal span').click(function(){
+		$('#top-login-overlay, #top-login-modal').hide();
+	});
+

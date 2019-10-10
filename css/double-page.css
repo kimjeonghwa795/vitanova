@@ -5,7 +5,7 @@ body{
 	margin:0;
 	padding:0;
 }
-
+.container-z{ background: none}
 .flipbook-viewport{
 	overflow:hidden;
 	width:100%;
@@ -14,25 +14,32 @@ body{
 
 .flipbook-viewport .container-z{
 	position:absolute;
-	top:110%;
+	top:50%;
 	left:50%;
 	margin:auto;
 }
 
 .flipbook-viewport .flipbook{
-	width:800px;
-	height:400px;
-	left:-400px;
-	top:-200px;
+	width:1200px;
+	height:600px;
+	left:-600px;
+	top:-300px;
 }
 
 .flipbook-viewport .page{
-	width:400px;
-	height:400px;
-	background-color:white;
+	width:600px;
+	height:600px;
+	/*background-color:white;*/
 	background-repeat:no-repeat;
 	background-size:100% 100%;
 }
+
+.flipbook-viewport .double{
+	width:1200px;
+	height:600px;
+	background-size:100% 100%;
+}
+
 
 .flipbook .page{
 	-webkit-box-shadow:0 0 20px rgba(0,0,0,0.2);
@@ -65,11 +72,6 @@ body{
 	box-shadow:0 0 20px #ccc;
 }
 
-.flipbook-viewport .double{
-	width:800px;
-	height:400px;
-	background-size:100% 100%;
-}
 
 
 @media (max-width: 1024px){
@@ -79,22 +81,104 @@ body{
 	top:80%;
 	left:50%;
 }
+	
+.flipbook-viewport .flipbook{
+	width:1000px;
+	height:500px;
+	left:-500px;
+	top:-300px;
+}
+
+.flipbook-viewport .page{
+	width:500px;
+	height:500px;
+	/*background-color:white;*/
+	background-repeat:no-repeat;
+	background-size:100% 100%;
+}
+
+.flipbook-viewport .double{
+	width:1000px;
+	height:500px;
+	background-size:100% 100%;
+}
 }
 
 @media (max-width: 768px){
-	.container-z{ width: 50%}
-	.flipbook-viewport{ width: 95%;}
-	.flipbook-viewport .container-z{
-	position:absolute;
-	top:105%;
-	left:50%;
+	
+.flipbook-viewport .flipbook{
+	width:700px;
+	height:350px;
+	left:-350px;
+	top:-300px;
+}
+
+.flipbook-viewport .page{
+	width:350px;
+	height:350px;
+	/*background-color:white;*/
+	background-repeat:no-repeat;
+	background-size:100% 100%;
+}
+
+.flipbook-viewport .double{
+	width:700px;
+	height:350px;
+	background-size:100% 100%;
 }
 }
 
 @media (max-width: 480px){
-	.container-z{ width: 50%}
-	.flipbook-viewport{ width: 95%;}
-	.flipbook-viewport .container-z{
-	display: none
+.flipbook-viewport .flipbook{
+	width:700px;
+	height:350px;
+	left:-350px;
+	top:-200px;
+}
+
+.flipbook-viewport .page{
+	width:350px;
+	height:350px;
+	/*background-color:white;*/
+	background-repeat:no-repeat;
+	background-size:100% 100%;
+}
+
+.flipbook-viewport .double{
+	width:700px;
+	height:350px;
+	background-size:100% 100%;
 }
 }
+
+
+/*modal*/
+#top-login-overlay, 
+#top-login-modal {
+    display: none;
+    position: fixed;
+}
+#top-login-modal span {
+    cursor: pointer;
+    display: block;
+    float: right;
+    font-size: 30px;
+}
+#top-login-overlay {
+    background-color: rgba(0, 0, 0, 0.8);
+    height: 100%;
+    left: 0;
+    top: 0;
+    width: 100%;
+    z-index: 998;
+}
+#top-login-modal {
+    left: 50%;
+    max-width: 600px;
+    top: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+    z-index: 999;
+}
+.top-login{ margin-right: -100px; z-index: 100000}  
+.top-login { cursor: pointer}

@@ -1,0 +1,84 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,500);
+
+/*****************************************
+*  --------------------------------------*
+*  Vars                                  *
+*  --------------------------------------*
+*****************************************/
+
+$bg: #34495e;
+$white: #fff;
+$raleway: 'Raleway', sans-serif;
+
+/*****************************************
+*  --------------------------------------*
+*  General                               *
+*  --------------------------------------*
+*****************************************/
+
+body { 
+  background: $bg; 
+}
+
+.container { 
+  padding: 50px; 
+}
+
+h1 { 
+  text-align: center;
+  color: white;
+  padding-bottom: 10px;
+  font-family: $raleway;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+}
+
+/*****************************************
+*  --------------------------------------*
+*  Slick                                 *
+*  --------------------------------------*
+*****************************************/
+
+.cl {
+  height:200px;
+  padding:10px;
+}
+
+.cl-yellow { 
+  background: #f1c40f; 
+}
+
+.cl-blue { 
+  background: #3498db; 
+}
+
+.cl-red { 
+  background: #e74c3c; 
+}
+
+.slick-active { 
+  padding: 20px 0; 
+}
+
+.slick-center { 
+  transform: scale(1.08) 
+}
+
+.slick-slide:not(.slick-active) { 
+  margin: 20px 0; 
+}
+
+.child { 
+  width:100%; 
+}
+
+.slide:not(.slick-active) { 
+  cursor: pointer; 
+}
+
+.pagination {
+  text-align: center; 
+  color: $white;
+  font-family: $raleway;
+  font-size: 1.2rem;
+}

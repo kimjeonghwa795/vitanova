@@ -13,6 +13,8 @@ src: local('Pistilli Regular'), url('../Pistilli-Roman.woff') format('woff');
 }
 
 
+.set-1 { font-family: 'Montserrat', sans-serif;}
+
 .site-navbar .site-navigation .site-menu#packages-page > li > a {
 	font-family: 'Playfair Display', serif;
 	font-size: .95rem;
@@ -337,6 +339,101 @@ color: #df6144
 .site-mobile-menu .site-nav-wrap[data-class="social-pakages"] > li:first-child a {
 	padding-left: 15px !important;
 }
+
+/*Slick Slider*/
+.slick span {
+  display: block;
+  background: #fff;
+  min-height: 100px;
+  position: relative;
+  text-align: center;
+  transform: translate(0, 0) scale(0.4);
+  transition: all .4s ease;
+  opacity: .5;
+}
+
+.slick-slide {
+  /*border: solid 1px #2dc37f;*/
+}
+
+.slick-slide.lt2 span {
+  transform: translate(10%, 0) scale(0.6);
+}
+
+.slick-slide.lt1 span {
+  opacity: .7;
+  transform: translate(5%, 0) scale(0.8);
+}
+
+.slick-slide.gt1 span {
+  opacity: .7;
+  transform: translate(-5%, 0) scale(0.8);
+}
+
+.slick-slide.gt2 span {
+  transform: translate(-10%, 0) scale(0.6);
+}
+
+.slick-slide.slick-center span {
+  z-index: 1;
+  transform: scale(1);
+  opacity: 1;
+  /*color: #e67e22;*/
+}
+
+.slick-prev,
+.slick-next {
+  position: absolute;
+  top: 50%;
+  appearance: none;
+  margin-top: -10px;
+  padding: 0;
+  border: 0;
+  background: none;
+  cursor: pointer;
+  color: transparent;
+  outline: none;
+  z-index: 100;
+}
+
+.slick-prev {
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 15px 15px 15px 0;
+  border-color: transparent #999 transparent transparent;
+  left: 0;
+}
+
+.slick-prev:hover {
+	width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 15px 15px 15px 0;left: 0;
+  border-color: transparent #ff6f61 transparent transparent;
+}
+.slick-next:hover {
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 15px 0 15px 15px;
+  border-color: transparent transparent transparent #ff6f61;
+  right: 0;
+}
+
+.slick-next {
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 15px 0 15px 15px;
+  border-color: transparent transparent transparent #999;
+  right: 0;
+}
+
+
+
+
+
 
 /*Responsive*/
 @media (max-width: 768px){
