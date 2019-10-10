@@ -2122,8 +2122,8 @@ a {
 	animation: sdb05 1.5s infinite;
 }
 .chevron::before {
-	border-left: 1.2px solid #4d4d4d;
-	border-bottom: 1.2px solid #4d4d4d;
+	border-left: 1.2px solid #df6244;
+	border-bottom: 1.2px solid #df6244;
 	-webkit-transform: rotate(-45deg);
 	transform: rotate(-45deg);
 	content: '';
@@ -2134,7 +2134,7 @@ a {
 	width: 10px;
 }
 .hero__scroll p{
-	color: #4d4d4d;
+	color: #df6244;
 	font : normal 300 0.8125rem/1 montserrat;
 	letter-spacing: .1em;
 	text-decoration: none;
