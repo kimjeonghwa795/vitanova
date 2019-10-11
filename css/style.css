@@ -816,8 +816,8 @@ a {
 /*Not Index*/
 .site-navigation#not-index > ul > li > a:hover::after, .site-navigation#not-index li.active > a:after{
 	width: 100%;
-	/*background: #4d4d4d*/
 	background: #4d4d4d
+	/*background: #df6244*/
 } 
 
 .site-navigation#not-index > ul > li > a:after{
@@ -915,7 +915,7 @@ a {
 	color: #343a40;
 }
 .site-navbar .site-navigation .site-menu .has-children .dropdown .active > a {
-	color: #7971ea !important;
+	color: #df6244 !important;
 }
 .site-navbar .site-navigation .site-menu .has-children .dropdown > li {
 	list-style: none;

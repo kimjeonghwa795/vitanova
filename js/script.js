@@ -430,3 +430,38 @@ function checkForDisable() {
     $(".js-left").addClass("disabled");
   }
 }
+
+
+
+/*Gallery*/
+var allCheckboxes = document.querySelectorAll('input[type=checkbox]');
+var allLocation = Array.from(document.querySelectorAll('.location'));
+var checked = {};
+
+getChecked('venues');
+
+Array.prototype.forEach.call(allCheckboxes, function (el) {
+  el.addEventListener('change', toggleCheckbox);
+});
+
+function toggleCheckbox(e) {
+  getChecked(e.target.name);
+  setVisibility();
+}
+
+function getChecked(name) {
+  checked[name] = Array.from(document.querySelectorAll('input[name=' + name + ']:checked')).map(function (el) {
+    return el.value;
+  });
+}
+
+function setVisibility() {
+  allPlayers.map(function (el) {
+    var venues = checked.venues.length ? _.intersection(Array.from(el.classList), checked.venues).length : true;
+    if (venues) {
+      el.style.display = 'block';
+    } else {
+      el.style.display = 'none';
+    }
+  });
+}
