@@ -74,7 +74,11 @@
 	.topnav .search-container button{ margin-right: -140px;}
 	
 }
-
+@media (max-width: 320px){
+	.topnav input[type=text]{ font-size: 13px;}
+	.topnav input[type=text] {width: 140%;}
+	.topnav .search-container button {margin-right: -120px;padding: 9.5px 25px;}	
+}
 
 
 

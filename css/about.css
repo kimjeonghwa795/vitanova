@@ -207,5 +207,36 @@
 	.behind-mg{ margin-top: 380px}
 }
 
+@media (max-width: 320px){ 
+	.info-footer-logo img{
+	width: 250px;    margin-bottom: -30px;
+}
+	.icon-menu:before{margin-right: -10px;}
+	
+	.topnav input[type=text]{     font-size: 13px;}
+	.topnav input[type=text] {
+    width: 140%;
+}
+	
+	.topnav .search-container button {
+    margin-right: -120px;padding: 9.5px 25px;
+}
 
-
+.team-1-h3 h3 {
+    margin-left: 35px;
+    font-size: 40px;
+    margin-top: 45px;
+}	
+.team-1-h4 h4{ transform: none; margin-left: 65px; margin-top: 25px;}	
+.team-1-p p{ margin-top: 30px; left:0}	
+.team-2-img{ margin-top: 180px; width: 100%;}	
+.team-2-h3 h3{ margin-top: -18px; font-size: 38px;margin-left: -20px;}	
+.team-2 h4 { left: -6%; margin-top: -50px; }	
+.team-2 p { margin-top: -60px; margin-left: -10px; }	
+.team-3-img{ margin-top: 90px; width: 100%; margin-left: 0}	
+.team-3 h3 { margin-bottom: -600px; margin-top: 740px; transform: none; margin-left: 65px; text-align: center; font-size: 38px; }	
+.team-3-text h4 { margin-top: 110px; margin-left: 55px; }	
+.team-3-text p { margin-top: 150px; margin-left: 15px; }
+	.topnav input[type=text]{ font-size: 13px;}
+	.topnav input[type=text] {width: 140%;}
+	.topnav .search-container button {margin-right: -120px;padding: 9.5px 25px;}}
