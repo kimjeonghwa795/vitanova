@@ -6,22 +6,4 @@ font-family: 'Lato', sans-serif;
 
 box-shadow: 0 15px 35px rgba(50, 50, 93, 0.1), 0 5px 15px rgba(0, 0, 0, 0.07);
 
-Lam & May
-01.10.2019
-“Absolutely amazing couple. My house is full of their work. I adore Vita team and recommend them to everyone that needs photographers. Such great fun to be around and always produce magic moments to cherish. Couldn’t rate them any higher – fabulous!” – <span> Lam & May</span>
-
-Tan & Mi
-10.09.2019
-“These guys are absolutely, incredibly talented which by just taking a quick look at any of the photos on here it is plain to see. Looking through all of our wedding photos, we are blown away by how natural and beautiful they all are. So full of emotion and looking through them is like watching our wedding video back in silence! You captured every single moment of our day (even the moments we didn’t know was happening)" – <span> Tan & Mi</span>
-
-Hung & Tu
-24.07.2019
-“We love love love our pictures so much. You guys have captured the most beautiful moment in the happiest day of our live. Thank you so much for being so professional and super chillaxing at the same time. Every single time that we look at the pictures, we feel like being in that same moment again." – <span> Hung & Tu</span>
-
-Quoc & Nghi
-07.07.2019
-“One of the best wedding photographer in Saigon. Thank you for being my partner!” – <span> Quoc & Nghi</span>
-
-Nghia & Quynh
-26.05.2018
-“Most amazing photographers, made our day so perfect and the whole service from start to finish is beyond professional. Tom even did all the groomsmen button holes! Ha ha, legends!” – 	<span>Nghia & Quynh</span>
+photography.html
