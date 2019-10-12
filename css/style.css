@@ -17,6 +17,8 @@ body {
 	color: #fff;
 }
 
+/*.bg-contact{background-image: url("../../cuong/VITA NOVA/bg hoa van.png"); background-position: right; background-repeat: no-repeat; position: relative; background-size: 28%;}*/
+
 .accordion .card:last-of-type{ margin-top: 15px}
 
 /* Webkit override Scrollbar with CSS3 */
@@ -28,10 +30,10 @@ width: 8px; height:8px;
 background:#f2f2eb;
 }
 ::-webkit-scrollbar-thumb {
-background: #df6244;
+background: #ff6f61;
 }
 ::-webkit-scrollbar-thumb:window-inactive {
-background: #df6244;
+background: #ff6f61;
     }
 
 
@@ -71,7 +73,7 @@ src: local('Pistilli Regular'), url('../Pistilli-Roman.woff') format('woff');
   font-style: normal;
   font-size: 2em;
   line-height: 50px;
-  /*color: #afafaf;*/cursor: pointer;color:#df6244;
+  /*color: #afafaf;*/cursor: pointer;color:#ff6f61;
 }
 #button:hover::after {
   /*color: #fff;*/cursor: pointer;
@@ -137,15 +139,15 @@ src: local('Pistilli Regular'), url('../Pistilli-Roman.woff') format('woff');
 	margin-bottom: -6px
 }
 .footer h3{
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'Lato', sans-serif;
 	font-size: 24px
 }
 .footer p {
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'Lato', sans-serif;
 	font-size: 13px
 }
 .footer a{
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'Lato', sans-serif;
 	font-size: 13px
 }
 .footer a:hover{
@@ -153,7 +155,7 @@ src: local('Pistilli Regular'), url('../Pistilli-Roman.woff') format('woff');
 }
 h5{
 	font-size: 25px;
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'Lato', sans-serif;
 }
 h2{
 	font-family: 'Playfair Display', serif;
@@ -163,13 +165,13 @@ h2{
 	line-height: 85px;
 }
 p{
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'Lato', sans-serif;
 }
 h4{
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'Lato', sans-serif;
 	font-style: normal;
-	font-weight: 400;
-	font-size: 30px;
+	font-weight: bold;
+	font-size: 25px;
 	line-height: 37px;
 }
 
@@ -218,13 +220,13 @@ option{
 .welcome-text{
 	margin-top: -100px
 }
-.overlay h2{font-family: 'Montserrat', sans-serif;
+.overlay h2{font-family: 'Lato', sans-serif;
 	font-style: normal;
 	font-weight: 600;
 	font-size: 30px;
 	line-height: 37px;
 }
-.overlay p a{font-family: 'Montserrat', sans-serif;
+.overlay p a{font-family: 'Lato', sans-serif;
 	font-style: normal;
 	font-weight: normal;
 	font-size: 14px;
@@ -331,7 +333,7 @@ option{
 	transition: opacity .8s;
 	transition-timing-function: cubic-bezier(0.25,0.46,0.45,0.94);
 	min-height: 2.34375rem;
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'Lato', sans-serif;
 	font-size: 15px;
 
 }
@@ -341,13 +343,13 @@ option{
 }
 /* Full-width input fields */
 input[type=text], input[type=password] {
-	width: 138%;
+	width: 100%;
 	padding: 15px;
 	margin: 5px 0 22px 0;
 	display: inline-block;
 	border: none;
 	background: #f1f1f1;
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'Lato', sans-serif;
 	font-size: 15px;
 	color: #6F6F6F
 }
@@ -493,7 +495,7 @@ a {
 }
 .text-black {
 	    color: #4d4d4d !important;
-    /*font-family: 'Montserrat', sans-serif;*/
+    /*font-family: 'Lato', sans-serif;*/
 	font-family: 'Pistilli Regular';
     font-size: 40px;
 }
@@ -2046,14 +2048,14 @@ a {
 }
 .image-gradient .text h3 {
 	font-size: 20px;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Lato', sans-serif;
 	color: #fff;
 	margin-bottom: 0;
 	    font-weight: 500;
 }
 .image-gradient .text span {
 	font-size: 15px;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Lato', sans-serif;
 	color: #f9f9f9;
     font-weight: 400;
 }
@@ -2111,7 +2113,7 @@ a {
 		display: auto;
 }
 .feedback-content p{
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'Lato', sans-serif;
 	font-size: 16px;
 	font-weight: 400;
 	color: #4d4d4d;
@@ -2122,7 +2124,7 @@ a {
 	color: #4d4d4d;
 }
 .feedback-content h5{
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'Lato', sans-serif;
 	font-size: 31px;
 	font-weight: normal!important;
 	color: #4d4d4d;
@@ -2176,8 +2178,8 @@ a {
 	animation: sdb05 1.5s infinite;
 }
 .chevron::before {
-	border-left: 1.2px solid #df6244;
-	border-bottom: 1.2px solid #df6244;
+	border-left: 1.4px solid #df6244;
+	border-bottom: 1.4px solid #df6244;
 	-webkit-transform: rotate(-45deg);
 	transform: rotate(-45deg);
 	content: '';
@@ -2189,7 +2191,7 @@ a {
 }
 .hero__scroll p{
 	color: #df6244;
-	font : normal 300 0.8125rem/1 montserrat;
+	font : normal 400 0.8125rem/1 'Lato', sans-serif;
 	letter-spacing: .1em;
 	text-decoration: none;
 	margin-bottom: -45px;
@@ -2331,14 +2333,14 @@ input[type=text], input[type=password]{
 }
 #writesth{
 	background: #fff;
-	font-family: 'Montserrat', sans-serif; 
+	font-family: 'Lato', sans-serif; 
 	font-size: 15px
 }
 #submit-contact-form{
 	background: #fff
 }
 #style{
-	font-family: 'Montserrat', sans-serif; 
+	font-family: 'Lato', sans-serif; 
 	font-size: 15px;	
 	background: #fff;
 	height: 50px
@@ -2429,8 +2431,8 @@ input[type=text], input[type=password]{
 	.number-services-02 h5{
 		margin-top: -50px;
 		position:absolute;
-		top: 100px;
-		left: 25.5%;
+		top: 90px;
+		left: 32%;
 	}
 	.test0mg{
 		margin-top: 115px
@@ -2490,7 +2492,7 @@ input[type=text], input[type=password]{
     margin-top: 45px;
 }	
 	
-	
+	.number-services-02 h5{ left: 30%;}	
 	
 	
 	
@@ -2794,7 +2796,7 @@ footer a .icons {
 		display: auto;
 }
 .feedback-content p{
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'Lato', sans-serif;
 	font-size: 16px;
 	font-weight: 400;
 	color: #4d4d4d;
@@ -2805,7 +2807,7 @@ footer a .icons {
 	color: #4d4d4d;
 }
 .feedback-content h5{
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'Lato', sans-serif;
 	font-size: 31px;
 	font-weight: normal!important;
 	color: #4d4d4d;

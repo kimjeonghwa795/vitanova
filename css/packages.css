@@ -12,9 +12,23 @@ font-weight: normal;
 src: local('Pistilli Regular'), url('../Pistilli-Roman.woff') format('woff');
 }
 
+.style-price{ font-size: 33px; font-weight: 700; /* margin-top: -20px; */ color: #5d5d5d;}
+.style-name-package{ font-family: 'Playfair Display', serif;; color: #ff6f61; font-weight: bold; margin-bottom: -18px; font-size: 27px;}
+.style-btn{ margin-top: 30px; padding: 12px 28px; background: #ff6f61; font-size: 15px; font-weight: 500; color: #fff; margin-top: 30px}
+.style-btn a{ color: #fff}
+.set-seemore { padding-bottom:45px; }
+.set-seemore a{ margin-top: 30px; padding: 12px 28px; background: #ff6f61; font-size: 15px; font-weight: 500; color: #fff;}
+.set-seemore a{ color: #fff; margin-top: 30px; /*box-shadow: 0 15px 35px rgba(50, 50, 93, 0.1), 0 5px 15px rgba(0, 0, 0, 0.07);*/}
+.style-checked{ margin-bottom: 7px}
+.set-seemore a:hover {background: #ff7c6f;}
+.set-1 { font-family: 'Lato', sans-serif; padding-top: 15px;}
+.check-mgb{ margin-bottom: 10px}
 
-.set-1 { font-family: 'Montserrat', sans-serif;}
-
+/*.new-content-img-1{ background: tomato; height: 250px}*/
+.new-content-img-1{ margin-bottom: 30px}
+.content1-text h3{ font-family: 'Playfair Display', serif;; color: #ff6f61; font-weight: bold; font-size: 40px;    padding-bottom: 8px;}
+.content1-text h4{ padding-bottom: 8px; font-sỉze: 25px}
+.content1-text span{ color: #ff6f61}
 .site-navbar .site-navigation .site-menu#packages-page > li > a {
 	font-family: 'Playfair Display', serif;
 	font-size: .95rem;
@@ -68,14 +82,14 @@ color: #df6144
 
 .breadcrumb a{
 	color: #fff;
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'Lato', sans-serif;
 	font-size: 20px;
 	font-weight: 500;
 }
 
 .breadcrumb a:hover{
 	color: #fff;
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'Lato', sans-serif;
 	font-size: 20px;
 	text-decoration: none !important;
 }
@@ -92,12 +106,9 @@ color: #df6144
   font-size:25px;
 }
 
-.content1-text h3{
-	font-family: 'Montserrat', sans-serif;
-}
 
 .content1-text a{
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'Lato', sans-serif;
 }
 
 .content1-text a:hover{
@@ -166,11 +177,10 @@ color: #df6144
 }
 
 .set-seemore a{
-	color: #4d4d4d
+	color: #fff
 }
 
 .set-seemore a:hover{
-	color: coral;
 	text-decoration: none
 }
 
@@ -249,7 +259,7 @@ color: #df6144
 .c-no{height:200px; background-image: url('images/big-images/nature_big_8.jpg')}
 .grey-bg{background:#ebebeb;}
 .counter-Txt{text-align:center;text-transform:uppercase; margin-top:60px;}
-.counter-Txt p{font-size:15px; font-family: 'Montserrat', sans-serif; letter-spacing: 3px}
+.counter-Txt p{font-size:15px; font-family: 'Lato', sans-serif; letter-spacing: 3px}
 .counter-Txt h3{font-size:30px; font-weight:600; font-family: montserrat}
 .counter-Txt span{font-size:36px}
 @media(min-width:320px) and (max-width:767px){ 
@@ -290,7 +300,7 @@ color: #df6144
 
 .hero__scroll-packages p{
 	color: #fff;
-	font : normal 300 0.8125rem/1 montserrat;
+	font : normal 300 0.8125rem/1 'Lato', sans-serif;;
 	letter-spacing: .1em;
 	text-decoration: none;
 	margin-bottom: -45px;

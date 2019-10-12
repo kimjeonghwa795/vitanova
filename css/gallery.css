@@ -9,7 +9,7 @@
   margin-top: 8px;
   font-size: 15px;
   border: none;
-	    margin-bottom: 30px;
+	    margin-bottom: 30px;    width: 167%;
 }
 
 .topnav{
@@ -19,15 +19,16 @@
 }
 
 .topnav .search-container button {
-  float: right;
-  padding: 11px 25px;
-  background: #ff6f61;
-  font-size: 17px;
-  border: none;
-  cursor: pointer;
-	position: absolute;
-	right: -270px; top: 8px;
-	color: white
+    float: right;
+    padding: 11.5px 25px;
+    background: #ff6f61;
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+    position: absolute;
+    left: 157.5%;
+    top: 8px;
+    color: white;
 	
 }
 
@@ -36,7 +37,7 @@
 }
 
 .fa-search:before {
-    font-size: 22px;
+    font-size: 17px;
 }
 
 /*Page Number*/
@@ -57,6 +58,8 @@
 	margin-left: 0;
 	margin-top: 80px;
 }
+	
+	.topnav .search-container button {left: 149%;}	
 }
 
 @media (max-width: 768px){
@@ -65,19 +68,24 @@
 	margin-left: 0;
 	margin-top: 80px;
 }
+	.topnav .search-container button {
+    left: 143%;
+}
 }
 
 @media (max-width: 480px){
 	.hero__scroll-packages{ display: block; top: 90%; margin-left: 100px;}
 	.sets-text-mg{ margin-top: 30px}
 	.topnav input[type=text]{ width: 166%;}
-	.topnav .search-container button{ margin-right: -140px;}
+	.topnav .search-container button { left: 138%; }
 	
 }
+
+@media (max-width: 375px){.topnav .search-container button { left: 136%; }}
 @media (max-width: 320px){
 	.topnav input[type=text]{ font-size: 13px;}
 	.topnav input[type=text] {width: 140%;}
-	.topnav .search-container button {margin-right: -120px;padding: 9.5px 25px;}	
+	.topnav .search-container button { left: 130%; padding: 10px 25px; }
 }
 
 
@@ -96,7 +104,7 @@
   float: left;
   padding: 5px 15px;
   text-decoration: none;
-	    font-family: 'Montserrat', sans-serif;
+	    font-family: 'Lato', sans-serif;
     font-weight: 500;
 }
 
@@ -110,7 +118,7 @@
 
 
 .filter-custom h3 {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Lato', sans-serif;
     font-size: 17px;
     font-weight: 600;
     color: #4d4d4d;
@@ -122,7 +130,7 @@
 }
 
 .filter-custom label{
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'Lato', sans-serif;
     font-size: 16px;
     font-weight: 400;
 }
@@ -137,7 +145,7 @@
 
 .filter-name{
 	background: #ff6f61;
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'Lato', sans-serif;
     font-size: 17px;
 	font-weight: 600;
 	text-align: center;
