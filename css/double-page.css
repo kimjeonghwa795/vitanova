@@ -104,12 +104,37 @@ body{
 }
 }
 
+@media (max-width: 812px){
+	
+.flipbook-viewport .flipbook{
+	width:700px;
+	height:350px;
+	left:-350px;
+	top:-175px;
+}
+
+.flipbook-viewport .page{
+	width:350px;
+	height:350px;
+	/*background-color:white;*/
+	background-repeat:no-repeat;
+	background-size:100% 100%;
+}
+
+.flipbook-viewport .double{
+	width:700px;
+	height:350px;
+	background-size:100% 100%;
+}
+}
+
+
 @media (max-width: 768px){
 	
 .flipbook-viewport .flipbook{
-	width:500px;
-	height:250px;
-	left:-550px;
+	width:700px;
+	height:350px;
+	left:-350px;
 	top:-300px;
 }
 
@@ -128,12 +153,12 @@ body{
 }
 }
 
-@media (max-width: 480px){
+@media (max-width: 736px){
 .flipbook-viewport .flipbook{
 	width:700px;
 	height:350px;
 	left:-350px;
-	top:-200px;
+	top:-180px;
 }
 
 .flipbook-viewport .page{
@@ -151,6 +176,98 @@ body{
 }
 }
 
+@media (max-width: 568px){
+.flipbook-viewport .flipbook{
+	width:550px;
+	height:275px;
+	left:-275px;
+	top:-140px;
+}
+
+.flipbook-viewport .page{
+	width:275px;
+	height:275px;
+	/*background-color:white;*/
+	background-repeat:no-repeat;
+	background-size:100% 100%;
+}
+
+.flipbook-viewport .double{
+	width:550px;
+	height:275px;
+	background-size:100% 100%;
+}
+}
+
+
+@media (max-width: 480px){
+.flipbook-viewport .flipbook{
+	width:400px;
+	height:200px;
+	left:-200px;
+	top:-200px;
+}
+
+.flipbook-viewport .page{
+	width:200px;
+	height:200px;
+	/*background-color:white;*/
+	background-repeat:no-repeat;
+	background-size:100% 100%;
+}
+
+.flipbook-viewport .double{
+	width:400px;
+	height:200px;
+	background-size:100% 100%;
+}
+}
+
+@media (max-width: 375px){
+.flipbook-viewport .flipbook{
+	width:350px;
+	height:175px;
+	left:-175px;
+	top:-50px;
+}
+
+.flipbook-viewport .page{
+	width:175px;
+	height:175px;
+	/*background-color:white;*/
+	background-repeat:no-repeat;
+	background-size:100% 100%;
+}
+
+.flipbook-viewport .double{
+	width:350px;
+	height:175px;
+	background-size:100% 100%;
+}
+}
+
+@media (max-width: 320px){
+.flipbook-viewport .flipbook{
+	width:300px;
+	height:150px;
+	left:-150px;
+	top:-50px;
+}
+
+.flipbook-viewport .page{
+	width:150px;
+	height:150px;
+	/*background-color:white;*/
+	background-repeat:no-repeat;
+	background-size:100% 100%;
+}
+
+.flipbook-viewport .double{
+	width:300px;
+	height:150px;
+	background-size:100% 100%;
+}
+}
 
 /*modal*/
 #top-login-overlay, 
