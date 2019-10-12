@@ -157,6 +157,7 @@ body{
 #top-login-modal {
     display: none;
     position: fixed;
+	
 }
 #top-login-modal span {
     cursor: pointer;

@@ -26,7 +26,7 @@
   border: none;
   cursor: pointer;
 	position: absolute;
-	right: 0; top: 8px;
+	right: -270px; top: 8px;
 	color: white
 	
 }
@@ -109,11 +109,12 @@
 
 
 
-.filter-custom h3{
-	font-family: 'Montserrat', sans-serif;
-    font-size: 20px;
+.filter-custom h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 17px;
     font-weight: 600;
-	color: #4d4d4d
+    color: #4d4d4d;
+    padding: 5px 0px;
 }
 
 .filter-custom h3:hover{
@@ -137,7 +138,7 @@
 .filter-name{
 	background: #ff6f61;
 	font-family: 'Montserrat', sans-serif;
-    font-size: 20px;
+    font-size: 17px;
 	font-weight: 600;
 	text-align: center;
 	padding: 8px 0;
@@ -173,7 +174,7 @@ input[type="checkbox" i{ border: none}
   display: block;
   position: relative;
 }
-.card-header > a:after {
+.card-header > a:after {<strong></strong>
   content: "\f078"; /* fa-chevron-down */
   font-family: 'FontAwesome';
   position: absolute;
