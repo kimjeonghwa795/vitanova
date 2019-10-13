@@ -18,7 +18,11 @@ body {
 }
 
 /*.bg-contact{background-image: url("../../cuong/VITA NOVA/bg hoa van.png"); background-position: right; background-repeat: no-repeat; position: relative; background-size: 28%;}*/
-
+.bg0 {
+    background-color: #fff;
+}
+.fa-long-arrow-right:hover:before{ color: #ff6f61}
+.fa-long-arrow-left:hover:before{ color: #ff6f61}
 .accordion .card:last-of-type{ margin-top: 15px}
 
 /* Webkit override Scrollbar with CSS3 */

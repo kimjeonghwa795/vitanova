@@ -20,8 +20,8 @@
 }
 
 .alternate-2-img-1{
-	height: 800px;
-	background: tomato
+	/*height: 800px;
+	background: tomato*/
 }
 
 .team{
@@ -121,8 +121,8 @@
 }
 
 .team-end{
-	height: 500px;
-	background: tomato
+	/*min-height: 500px;
+	background: tomato*/
 }
 
 .behind-mg{ margin-top: 150px}
